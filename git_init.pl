@@ -11,7 +11,7 @@ chdir $init_Lpath;
 $remote_path=$ARGV[1];
 
 $USER="Hukanzen";
-$PASS="7a585223c7ccb7f90010a74b8945952cac24b347";
+$PASS="xxx";
 
 #=== git init ===#
 $git_init="git init";
