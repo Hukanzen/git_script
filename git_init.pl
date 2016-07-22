@@ -4,11 +4,19 @@
 # 1st argument is local path where you want to init .
 # 2nd argument is remote path where you want to init . 
 #
+my $init_Lpath="";
+my $remote_path="";
 
 $init_Lpath=$ARGV[0];
 chdir $init_Lpath;
 
 $remote_path=$ARGV[1];
+
+if($init_Lpath eq ""){
+	exit 1;
+}elsif($remote_path eq ""){
+	exit 2;
+}
 
 $USER="Hukanzen";
 $PASS="xxx";
